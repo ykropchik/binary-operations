@@ -105,9 +105,9 @@ int main() {
      * Tenth
      */
     cout << "Tenth task" << "\n";
-    unsigned short int r = 0, s = 0, t = 0;
-    cin >> r >> s;
-    cout << (r ^ (1 << s)) << "\n";
+    unsigned short int q = 0, r = 0, s = 0;
+    cin >> q >> r >> s;
+    cout << (q ^ ((1 << r) | (1 << s))) << "\n";
 
     /*
      * Eleventh
